@@ -1,0 +1,117 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.feedback-form {
+  padding: 24px;
+  width: 408px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.form-label:last-of-type {
+  margin-bottom: 16px;
+}
+
+.form-input {
+  width: 360px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  transition: border-color 250ms ease-in-out;
+}
+
+.form-textarea {
+  width: 360px;
+  min-height: 80px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  resize: none;
+  field-sizing: content;
+}
+
+.form-input:hover,
+.form-textarea:hover {
+  border-color: #000000;
+}
+
+.form-input:active,
+.form-textarea:active {
+  border-color: #808080;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: transparent;
+  transition: color 250ms ease-in-out;
+}
+
+.form-input:focus::placeholder,
+.form-textarea:focus::placeholder {
+  color: #808080;
+}
+
+.form-button {
+  display: block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: #6c8cff;
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 250ms ease-in-out;
+}
+
+.btn-back:hover,
+.btn-back:focus {
+  background-color: #2e54e1;
+}
